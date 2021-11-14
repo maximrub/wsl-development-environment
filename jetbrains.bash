@@ -22,7 +22,6 @@ log_info Installing Jetbrains Toolbox app
 
 curl -L https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.22.10685.tar.gz -o /tmp/jetbrains-toolbox-1.22.10685.tar.gz
 mkdir -p ~/.local/share/JetBrains/toolbox
-tar -C ~/.local/share/JetBrains -xzf /tmp/jetbrains-toolbox-1.22.10685.tar.gz
-mv ~/.local/share/JetBrains/jetbrains-toolbox-1.22.10685/ ~/.local/share/JetBrains/toolbox/
+tar -C ~/.local/share/JetBrains/toolbox -xzf /tmp/jetbrains-toolbox-1.22.10685.tar.gz --strip-components=1
 
 log_info Jetbrains Toolbox app installed
