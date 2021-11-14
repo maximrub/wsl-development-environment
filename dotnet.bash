@@ -24,7 +24,6 @@ wget https://packages.microsoft.com/config/ubuntu/21.04/packages-microsoft-prod.
 sudo dpkg -i packages-microsoft-prod.deb
 rm packages-microsoft-prod.deb
 
-sudo apt-get update -y; sudo apt-get install -y apt-transport-https && sudo apt-get update -y && sudo apt-get install -y dotnet-sdk-3.1 && \ 
-sudo apt-get install -y dotnet-sdk-5.0 && sudo apt-get install -y dotnet-sdk-6.0
+sudo apt-get update -y; sudo apt-get install -y apt-transport-https && sudo apt-get update -y && sudo apt-get install -y dotnet-sdk-3.1 && sudo apt-get install -y dotnet-sdk-5.0 && sudo apt-get install -y dotnet-sdk-6.0
 
 log_info dotnet installed
