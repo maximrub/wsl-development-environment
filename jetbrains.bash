@@ -18,9 +18,9 @@ log_info(){
     echo -e "${green}$@${reset}"
 }
 
-log_info Installing Go
+log_info Installing Jetbrains Toolbox app
 
 curl -L https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.22.10685.tar.gz -o /tmp/jetbrains-toolbox-1.22.10685.tar.gz
 sudo tar -C ~/.local/share/JetBrains/toolbox -xzf /tmp/jetbrains-toolbox-1.22.10685.tar.gz
 
-log_info Go installed
+log_info Jetbrains Toolbox app installed
