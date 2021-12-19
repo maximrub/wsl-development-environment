@@ -20,8 +20,8 @@ log_info(){
 
 log_info Installing Go
 
-curl -L https://dl.google.com/go/go1.17.3.linux-amd64.tar.gz -o /tmp/go1.17.3.linux-amd64.tar.gz
-sudo tar -C /usr/local -xzf /tmp/go1.17.3.linux-amd64.tar.gz
+curl -L https://dl.google.com/go/go1.17.5.linux-amd64.tar.gz -o /tmp/go1.17.5.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf /tmp/go1.17.5.linux-amd64.tar.gz
 
 echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.profile
 
