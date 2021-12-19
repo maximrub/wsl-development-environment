@@ -20,9 +20,9 @@ log_info(){
 
 log_info Installing Jetbrains Toolbox app
 
-curl -L https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.22.10685.tar.gz -o /tmp/jetbrains-toolbox-1.22.10685.tar.gz
+curl -L https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.22.10970.tar.gz -o /tmp/jetbrains-toolbox-1.22.10970.tar.gz
 mkdir -p ~/.local/share/JetBrains/toolbox
-tar -C ~/.local/share/JetBrains/toolbox -xzf /tmp/jetbrains-toolbox-1.22.10685.tar.gz --strip-components=1
+tar -C ~/.local/share/JetBrains/toolbox -xzf /tmp/jetbrains-toolbox-1.22.10970.tar.gz --strip-components=1
 mkdir -p ~/.local/share/JetBrains/bin
 echo 'export PATH="~/.local/share/JetBrains/bin:$PATH"' >> ~/.bashrc
 
